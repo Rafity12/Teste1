@@ -1,0 +1,72 @@
+/* ---- NAVBAR ---- (Cabeçario) */
+#navbar {
+    height: 180px;
+}
+.logo {
+    font-size: 2rem;
+    font-family: 'Mukta', sans-serif;
+}
+
+#navbar-container {
+    flex-direction: column;   /* Coloca bloco em coluna */
+    padding: 20px;
+}
+#navbar-items {
+    flex-direction: column; /* Colocar o texto em coluna */
+    text-align: center;     /* No centro */ 
+    width: 100%;           
+}
+#navbar-items li {
+    padding: 4px;
+}
+#navbar-items li:nth-child(2){
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+#navbar-items li a{
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+}
+
+/* ---- INICIO CONTAINER ---- ( Imagem ) ---- */
+#inicio-container {
+    padding: 40px;
+}
+
+/* ---- SOBRE CONTAINER ---- ("Sobre nós") */
+#sobre-container {
+    grid-template-columns: 1fr; /* fr = Frunidade */
+}
+
+/* ---- GALERIA CONTAINER ---- (Galeria) */
+#galeria-container {
+    grid-template-columns: 1fr;
+}
+.galeria-image {
+    width: 100%;
+}
+
+/* ---- ITENS ---- (Parágrafos) */
+#items {
+    width: 90%;
+}
+.item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* ---- DEPOIMENTOs ---- */
+.depoimento {
+    flex-direction: column;     
+    text-align: center;         
+}
+
+/* ---- REGISTER ---- (Formulário) */
+.register-form {
+    max-width: 100%;
+}
+form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+}
